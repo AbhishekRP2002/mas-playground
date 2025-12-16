@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Default template for PDM package"
 readme = "README.md"
 requires-python = "==3.11.*"
-dependencies = ["mcp-agent>=0.2.6", "langchain-mcp-adapters>=0.2.1", "langchain>=1.2.0"]
+dependencies = ["mcp-agent>=0.2.6", "langchain-mcp-adapters>=0.2.1", "langchain>=1.2.0", "fastmcp>=2.14.1"]
 authors = [
     {name = "Abhishek Ranjan", email = "aviranjan444@gmail.com"},
 ]

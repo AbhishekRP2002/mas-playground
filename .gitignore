@@ -6,5 +6,26 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
 .venv
+
+okta-mcp-server/
+servicenow-mcp/
+
+.env
+*.env
+!.env.example
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+.DS_Store
+Thumbs.db
+
+*.log
+logs/
+
+# Temporary files
+IMPLEMENTATION*.md
